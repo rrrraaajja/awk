@@ -1,0 +1,5 @@
+#Input separator
+
+#By default awk splits input lines into fields based on whitespace, that is, spaces and tabs. You can change this by using the -F option to awk and supplying another character. For instance, to print the home directories of all users on the system, you might do
+        awk < /etc/passwd -F: '{ print $6 }'
+#since the password file has fields delimited by colons and the home directory is the 6th field.
