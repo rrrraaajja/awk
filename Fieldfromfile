@@ -1,0 +1,8 @@
+sh-4.2# awk '{ print $1 }' out.txt                                                          
+total                                                                                       
+drwxr-xr-x                                                                                  
+drwx------                                                                                  
+-rw-r--r--                                                                                  
+-rw-r--r--                                                                                  
+-rw-r--r--                                                                                  
+sh-4.2#  
